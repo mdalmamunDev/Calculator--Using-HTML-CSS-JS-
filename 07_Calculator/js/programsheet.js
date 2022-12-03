@@ -35,6 +35,7 @@ function calculator(e) {
       result = eval(disString); // eval() calculat string if posible "2+3" = 5
       displayUp.innerHTML = `<h2 class="pt-2"> ${result} </h2>`;
       displayDown.innerHTML = "";
+      disString = result;
     }
     
   } else if(currText == "X") {     //back one step
